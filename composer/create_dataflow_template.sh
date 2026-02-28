@@ -1,0 +1,1 @@
+python wordcount.py --runner DataflowRunner --project gcp-data-engineer-cloud-com-ct --region us-central1 --temp_location gs://gcs-bucket-cloudcom-ctc05/temp --staging_location gs://gcs-bucket-cloudcom-ctc05/staging --template_location gs://gcs-bucket-cloudcom-ctc05/templates/wordcount_template
