@@ -1,0 +1,44 @@
+{
+    "displayName": "GCP Data Monitoring Dashboard",
+    "widgets": [
+        {
+        "title": "CPU Usage",
+        "xyChart": {
+            "dataSets": [{
+                "timeSeriesQuery": {
+                "timeSeriesFilter": {
+                "filter": "metric.type=\"compute.googleapis.com/query/count\""
+            }
+            }
+        }]
+                
+       }
+     },
+        {
+        "title": "second for consultation",
+        "xyChart": {
+            "dataSets": [{
+                "timeSeriesQuery": {
+                "timeSeriesFilter": {
+                "filter": "metric.type=\"compute.googleapis.com/query/count\""
+            }
+            }
+        }]
+                
+       }
+     },
+        {
+        "title": "Disk I/O",
+        "xyChart": {
+            "dataSets": [{
+                "timeSeriesQuery": {
+                "timeSeriesFilter": {
+                "filter": "metric.type=\"compute.googleapis.com/query/count\""
+            }
+            }
+        }]
+                
+       }
+     }
+    ]
+}
